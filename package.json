@@ -1,18 +1,24 @@
 {
-    "name": "Kanban table",
-    "version": "1.0.0",
-    "description": "Example React website",
-    "author": "Mitchell Bears",
-    "scripts": {
-        "start": "node_modules/.bin/webpack-dev-server --progress"
-    },
-    "devDependencies": {
-        "babel-core": "^5.8.*",
-        "babel-loader": "^5.3.*",
-        "webpack": "^1.12.*",
-        "webpack-dev-server": "^1.10.*"
-    },
-    "dependencies":{
-        "react": "^0.13.*"
-    }
+  "name": "kanban-app",
+  "version": "0.1.0",
+  "description": "Pro React sample kanban app project",
+  "author": "Cássio Zen",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --progress",
+    "build": "NODE_ENV=production webpack -p --progress --colors"
+  },
+  "devDependencies": {
+    "babel-core": "~6.7.*",
+    "babel-loader": "~6.2.*",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "~6.5.*",
+    "webpack": "~1.12.*",
+    "webpack-dev-server": "~1.14.*"
+  },
+  "dependencies": {
+    "marked": "^0.3.6",
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0"
+  }
 }
